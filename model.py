@@ -36,7 +36,10 @@ def pripremi_podatke(df):
 
     kolone_za_izbaciti = [
         'Churn Label',
-        'Churn Reason'
+        'Churn Reason',
+        'Churn Score',
+        'CLTV',
+        'Churn Value'
     ]
 
     for kolona in kolone_za_izbaciti:
